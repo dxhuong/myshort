@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(dashboard|analytics|settings|about|lang|stats|delete|create|edit|login|logout)(/.*)?$ index.php [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)$ r.php?code=$1 [L,QSA]
