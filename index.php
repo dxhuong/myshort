@@ -5,7 +5,7 @@ define('SCRIPT_PATH', '/rutgonlink');              // Thay bằng '' nếu chạ
 define('ADMIN_USER', 'admin');
 // Mật khẩu mặc định: admin123 — Chạy lệnh sau để tạo hash mới:
 // php -r "echo password_hash('your_password', PASSWORD_DEFAULT);"
-define('ADMIN_PASS', '$2y$10$MSStaOd927it4LbJphbpJeXUV8vVcfCyCYVyuTIfy.ZKTjntBS8g2');
+define('ADMIN_PASS', '$2y$10$mjppIBwny1UEqQj4tSXuWeXMwf5fhXhag/ASCC0SK66zfcLpSm/Bm');
 define('DB_PATH', __DIR__ . '/db.sqlite');
 define('RATE_LIMIT', 10);
 define('REMEMBER_DAYS', 30);        // Thời gian lưu đăng nhập (ngày)

@@ -72,6 +72,17 @@ Visit `yourdomain.com` — the SQLite database is created automatically on first
 
 ---
 
+## Default Credentials
+
+| Field    | Value      |
+|----------|------------|
+| Username | `admin`    |
+| Password | `admin123` |
+
+> **Important:** Change the password immediately after first login via the **Settings** page, or update `ADMIN_PASS` in `index.php` with a new bcrypt hash.
+
+---
+
 ## Usage
 
 1. Log in to the admin panel at `yourdomain.com`
